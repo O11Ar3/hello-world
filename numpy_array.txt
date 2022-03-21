@@ -1,0 +1,34 @@
+# Create a length-10 integer array filled with zeros
+np.zeros(10, dtype=int
+
+# Create a 3x5 floating-point array filled with ones
+np.ones((3, 5), dtype=float)
+
+# Create a 3x5 array filled with 3.14
+np.full((3, 5), 3.14)
+
+# Create an array of five values evenly spaced between 0 and 1
+np.linspace(0, 1, 5)
+
+# Create a 3x3 array of uniformly distributed
+# random values between 0 and 1
+np.random.random((3, 3))
+
+# Create a 3x3 array of normally distributed random values
+# with mean 0 and standard deviation 1
+np.random.normal(0, 1, (3, 3))
+
+# Create a 3x3 array of random integers in the interval [0, 10)
+np.random.randint (0, 10, (3, 3))
+
+# Create a 3x3 identity matrix
+np.eye(3)
+
+# Create an uninitialized array (3x3)
+# The values will be whatever happens to already exist at that memory location
+np.empty ((3,3))
+
+#The out is an array of the iterated elements
+x1[start:stop:step] #ndim=1
+x2[start:stop:step, start:stop:step] #ndim=2 x[line, columns]
+x2[:, 0]  # first column of x2
